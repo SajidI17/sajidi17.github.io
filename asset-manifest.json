@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.ab62bad4.css",
-    "main.js": "/static/js/main.b0008451.js",
+    "main.css": "/static/css/main.cce26227.css",
+    "main.js": "/static/js/main.c29f36b4.js",
     "static/media/Sajid_Islam_Resume.pdf": "/static/media/Sajid_Islam_Resume.2d69346d35fd2be0aa43.pdf",
     "static/media/Python.png": "/static/media/Python.82efb64f8698a267f8bf.png",
     "static/media/React.png": "/static/media/React.b76698cf6e821b8a8758.png",
@@ -13,11 +13,11 @@
     "static/media/Java.png": "/static/media/Java.2be0bca1b95cfc0ce63e.png",
     "static/media/SSC-Logo.png": "/static/media/SSC-Logo.a57ccaa37f3fc5822d26.png",
     "index.html": "/index.html",
-    "main.ab62bad4.css.map": "/static/css/main.ab62bad4.css.map",
-    "main.b0008451.js.map": "/static/js/main.b0008451.js.map"
+    "main.cce26227.css.map": "/static/css/main.cce26227.css.map",
+    "main.c29f36b4.js.map": "/static/js/main.c29f36b4.js.map"
   },
   "entrypoints": [
-    "static/css/main.ab62bad4.css",
-    "static/js/main.b0008451.js"
+    "static/css/main.cce26227.css",
+    "static/js/main.c29f36b4.js"
   ]
 }
