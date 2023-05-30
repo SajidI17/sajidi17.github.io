@@ -7,13 +7,13 @@ const Navbar = () => {
         {/*<h1 className='w-full md:text-3xl md:visible invisible font-bold text-[#14e4ff]'>SAJID I.</h1>*/}
         <ul className='flex font-bold border-2 border-solid rounded-lg bg-neutral-800 border-blue-700'>
             <li className='p-4 cursor-pointer transition-all hover:text-blue-600 hover:scale-110'>
-              <Scroll.Link activeClass='active' offset={-300} smooth spy to='home'>Home</Scroll.Link>
+              <Scroll.Link activeClass='active' smooth spy to='home'>Home</Scroll.Link>
             </li>
             <li className='p-4 cursor-pointer transition-all hover:text-blue-600 hover:scale-110'>
-              <Scroll.Link activeClass='active' offset={-300} smooth spy to='languages'>Technologies</Scroll.Link>
+              <Scroll.Link activeClass='active' smooth spy to='languages'>Technologies</Scroll.Link>
             </li>
             <li className='p-4 cursor-pointer transition-all hover:text-blue-600 hover:scale-110'>
-              <Scroll.Link activeClass='active' offset={-75} smooth spy to='work'>Work</Scroll.Link>
+              <Scroll.Link activeClass='active' smooth spy to='work'>Work</Scroll.Link>
             </li>
             <li className='p-4 cursor-pointer transition-all hover:text-blue-600 hover:scale-110'>
               <Scroll.Link activeClass='active' smooth spy to='contact'>Contact</Scroll.Link>

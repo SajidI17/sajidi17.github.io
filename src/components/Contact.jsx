@@ -21,7 +21,7 @@ const Contact = () => {
               <label for='message' className='block pb-2 font-medium text-sm'>Message *</label>
               <textarea rows='6' id='message' className='w-full p-2.5 text-sm shadow-sm border border-gray-600 rounded-lg bg-neutral-800 placeholder-gray-400' placeholder='Comment here.' required></textarea>
             </div>
-            <button type="submit" className='py-2 px-3 rounded-lg font-medium text-center bg-blue-700'>Send</button>
+            <button type="submit" className='py-2 px-3 rounded-lg font-medium text-center bg-blue-700 transition-all hover:bg-blue-600 hover:scale-110'>Send</button>
         </form>
     </div>
   )

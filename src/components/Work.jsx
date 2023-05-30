@@ -14,7 +14,7 @@ const Work = () => {
 
           <div class="flex flex-col m-6 w-full sm:w-96 rounded-xl overflow-hidden shadow-lg bg-neutral-800">
             <img class="w-full object-contain" src={HOC} alt="Sunset in the mountains"></img>
-            <div class="px-6 py-4 border-solid border-y h-full">
+            <div class="px-6 py-4 h-full">
               <div class="font-bold text-md mb-2">The House of Commons (Physical Security)</div>
               <p class='font-bold'>Co-op Student</p>
               <p class="text-base">
@@ -38,7 +38,7 @@ const Work = () => {
 
           <div class="flex flex-col m-6 w-full sm:w-96 rounded-xl overflow-hidden shadow-lg bg-neutral-800">
             <img class="w-full object-contain" src={GAC} alt="Sunset in the mountains"></img>
-            <div class="px-6 py-4 border-solid border-y h-full">
+            <div class="px-6 py-4 h-full">
               <div class="font-bold text-md mb-2">Global Affairs Canada</div>
               <p class='font-bold'>Programmer Analyst</p>
               <p class="text-base">
@@ -60,7 +60,7 @@ const Work = () => {
 
           <div class="flex flex-col m-6 w-full sm:w-96 rounded-xl overflow-hidden shadow-lg bg-neutral-800">
             <img class="w-full object-contain" src={SSC} alt="Sunset in the mountains"></img>
-            <div class="px-6 py-4 border-solid border-y h-full">
+            <div class="px-6 py-4 h-full">
               <div class="font-bold text-md mb-2">Shared Services Canada</div>
               <p class='font-bold'>Support Analyst</p>
               <p class="text-base">

@@ -18,73 +18,73 @@ const Languages = () => {
         </div>
         
         <div className='md:mx-[80px] mx-[12px]'>
-            <ul className='flex flex-wrap group font-bold text-center justify-center'>
-                <li className='m-5'>
-                    <img className='object-contain w-20 h-20 group-hover:opacity-50' src={javaLogo} alt="Java Language Logo"></img>
-                    <div className='transition-all transform opacity-0 translate-y-8 group-hover:opacity-100 group-hover:translate-y-0'>
+            <ul className='flex flex-wrap font-bold text-center justify-center'>
+                <li className='m-5 group'>
+                    <img className='object-contain w-20 h-20 transition-all group-hover:scale-125 group-hover:opacity-50' src={javaLogo} alt="Java Language Logo"></img>
+                    <div className='transition-all transform opacity-0 translate-y-2 group-hover:opacity-100'>
                         <p>Java</p>
                     </div>
                 </li>
 
-                <li className='m-5'>
-                    <img className='object-contain w-20 h-20 group-hover:opacity-50' src={cLogo} alt="C Language Logo"></img>
-                    <div className='transition-all transform opacity-0 translate-y-8 group-hover:opacity-100 group-hover:translate-y-0'>
+                <li className='m-5 group'>
+                    <img className='object-contain w-20 h-20 transition-all group-hover:scale-125 group-hover:opacity-50' src={cLogo} alt="C Language Logo"></img>
+                    <div className='transition-all transform opacity-0 translate-y-2 group-hover:opacity-100'>
                         <p>C</p>
                     </div>
                 </li>
 
-                <li className='m-5'>
-                    <img className='object-contain w-20 h-20 group-hover:opacity-50' src={jsLogo} alt="Javascript Language Logo"></img>
+                <li className='m-5 group'>
+                    <img className='object-contain w-20 h-20 transition-all group-hover:scale-125 group-hover:opacity-50' src={jsLogo} alt="Javascript Language Logo"></img>
 
-                    <div className='transition-all transform opacity-0 translate-y-8 group-hover:opacity-100 group-hover:translate-y-0'>
+                    <div className='transition-all transform opacity-0 translate-y-2 group-hover:opacity-100'>
                         <p>JavaScript</p>
                     </div>
                 </li>
 
-                <li className='m-5'>
-                    <img className='object-contain w-20 h-20 group-hover:opacity-50' src={psLogo} alt="PowerShell Logo"></img>
+                <li className='m-5 group'>
+                    <img className='object-contain w-20 h-20 transition-all group-hover:scale-125 group-hover:opacity-50' src={psLogo} alt="PowerShell Logo"></img>
 
-                    <div className='transition-all transform opacity-0 translate-y-8 group-hover:opacity-100 group-hover:translate-y-0'>
+                    <div className='transition-all transform opacity-0 translate-y-2 group-hover:opacity-100'>
                         <p>PowerShell</p>
                     </div>
                 </li>
 
-                <li className='m-5'>
-                    <img className='object-contain w-20 h-20 group-hover:opacity-50' src={pythonLogo} alt="Python Language Logo"></img>
+                <li className='m-5 group'>
+                    <img className='object-contain w-20 h-20 transition-all group-hover:scale-125 group-hover:opacity-50' src={pythonLogo} alt="Python Language Logo"></img>
 
-                    <div className='transition-all transform opacity-0 translate-y-8 group-hover:opacity-100 group-hover:translate-y-0'>
+                    <div className='transition-all transform opacity-0 translate-y-2 group-hover:opacity-100'>
                         <p>Python</p>
                     </div>
                 </li>
 
-                <li className='m-5'>
-                    <img className='object-contain w-20 h-20 group-hover:opacity-50' src={reactLogo} alt="React Logo"></img>
+                <li className='m-5 group'>
+                    <img className='object-contain w-20 h-20 transition-all group-hover:scale-125 group-hover:opacity-50' src={reactLogo} alt="React Logo"></img>
 
-                    <div className='transition-all transform opacity-0 translate-y-8 group-hover:opacity-100 group-hover:translate-y-0'>
+                    <div className='transition-all transform opacity-0 translate-y-2 group-hover:opacity-100'>
                         <p>React</p>
                     </div>
                 </li>
 
-                <li className='m-5'>
-                    <img className='object-contain w-20 h-20 group-hover:opacity-50' src={gitLogo} alt="Git Logo"></img>
+                <li className='m-5 group'>
+                    <img className='object-contain w-20 h-20 transition-all group-hover:scale-125 group-hover:opacity-50' src={gitLogo} alt="Git Logo"></img>
 
-                    <div className='transition-all transform opacity-0 translate-y-8 group-hover:opacity-100 group-hover:translate-y-0'>
+                    <div className='transition-all transform opacity-0 translate-y-2 group-hover:opacity-100'>
                         <p>Git</p>
                     </div>
                 </li>
 
-                <li className='m-5'>
-                    <img className='object-contain w-20 h-20 group-hover:opacity-50' src={mongoLogo} alt="MongoDB Logo"></img>
+                <li className='m-5 group'>
+                    <img className='object-contain w-20 h-20 transition-all group-hover:scale-125 group-hover:opacity-50' src={mongoLogo} alt="MongoDB Logo"></img>
 
-                    <div className='transition-all transform opacity-0 translate-y-8 group-hover:opacity-100 group-hover:translate-y-0'>
+                    <div className='transition-all transform opacity-0 translate-y-2 group-hover:opacity-100'>
                         <p>MongoDB</p>
                     </div>
                 </li>
 
-                <li className='m-5'>
-                    <img className='object-contain w-20 h-20 group-hover:opacity-50' src={nodeLogo} alt="NodeJS Logo"></img>
+                <li className='m-5 group'>
+                    <img className='object-contain w-20 h-20 transition-all group-hover:scale-125 group-hover:opacity-50' src={nodeLogo} alt="NodeJS Logo"></img>
 
-                    <div className='transition-all transform opacity-0 translate-y-8 group-hover:opacity-100 group-hover:translate-y-0'>
+                    <div className='transition-all transform opacity-0 translate-y-2 group-hover:opacity-100'>
                         <p>NodeJS</p>
                     </div>
                 </li>
