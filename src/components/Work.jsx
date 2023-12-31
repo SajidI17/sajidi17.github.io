@@ -12,10 +12,33 @@ const Work = () => {
 
         <div className='flex flex-wrap justify-center'>
 
-          <div className="flex flex-col m-6 w-full sm:w-96 rounded-xl overflow-hidden shadow-lg bg-neutral-800">
+        <div className="flex flex-col m-6 w-full sm:w-96 rounded-xl overflow-hidden shadow-lg bg-neutral-800">
             <img className="w-full object-contain" src={HOC} alt="Sunset in the mountains"></img>
             <div className="px-6 py-4 h-full">
-              <div className="font-bold text-md mb-2">The House of Commons (Physical Security)</div>
+              <div className="font-bold text-md mb-2">Corporate Systems - House of Commons</div>
+              <p className='font-bold'>Co-op Student</p>
+              <p className="text-base">
+              • Lead the team to develop custom automated build and deployment pipelines for over 30 products, significantly enhancing efficiency and consistency of deployments, while minimizing downtime 
+              <br/><br/>•	Developed an automatic cloud-hosted service using C# for syncing critical security data between a database and an API, reducing manual labour and minimizing human errors 
+              <br/><br/>•	Developed and maintained custom deployment scripts for website applications and databases, simplifying procedures and reducing the need for the deployment team to follow complex product-specific processes
+              </p>
+            </div>
+
+            <div className="px-6 pt-4 pb-2">
+              <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">Build/Release Pipelines</span>
+              <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">C# Custom Application</span>
+              <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">PowerShell Scripting</span>
+              <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">Automation</span>
+              <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">Visual Studio</span>
+              <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">DevOps</span>
+              <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">Git</span>
+            </div>
+          </div>
+
+        <div className="flex flex-col m-6 w-full sm:w-96 rounded-xl overflow-hidden shadow-lg bg-neutral-800">
+            <img className="w-full object-contain" src={HOC} alt="Sunset in the mountains"></img>
+            <div className="px-6 py-4 h-full">
+              <div className="font-bold text-md mb-2">Physical Security - House of Commons</div>
               <p className='font-bold'>Co-op Student</p>
               <p className="text-base">
               • Developed and tested the automated deployment product using PowerShell for managing security software on target nodes, ensuring quick delivery of critical security infrastructure across Parliament
@@ -35,6 +58,8 @@ const Work = () => {
               <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">IaC</span>
             </div>
           </div>
+
+          
 
           <div className="flex flex-col m-6 w-full sm:w-96 rounded-xl overflow-hidden shadow-lg bg-neutral-800">
             <img className="w-full object-contain" src={GAC} alt="Sunset in the mountains"></img>
