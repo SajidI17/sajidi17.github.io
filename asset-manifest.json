@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.26f50476.css",
-    "main.js": "/static/js/main.e0414337.js",
-    "static/media/Sajid_Islam_Resume.pdf": "/static/media/Sajid_Islam_Resume.e4b422f8559bba99bfaf.pdf",
+    "main.css": "/static/css/main.dc18f3d2.css",
+    "main.js": "/static/js/main.c1f31235.js",
+    "static/media/Sajid_Islam_Resume.pdf": "/static/media/Sajid_Islam_Resume.b711ae055ea381d7fb79.pdf",
     "static/media/Python.png": "/static/media/Python.82efb64f8698a267f8bf.png",
     "static/media/React.png": "/static/media/React.b76698cf6e821b8a8758.png",
     "static/media/HOC-Emblem.png": "/static/media/HOC-Emblem.5fb100191e4768c169bc.png",
@@ -12,12 +12,13 @@
     "static/media/C.png": "/static/media/C.bbbbbabc8c191bfb99bf.png",
     "static/media/Java.png": "/static/media/Java.2be0bca1b95cfc0ce63e.png",
     "static/media/SSC-Logo.png": "/static/media/SSC-Logo.a57ccaa37f3fc5822d26.png",
+    "static/media/Azure.png": "/static/media/Azure.1a3c33ddd5c2ba41d446.png",
     "index.html": "/index.html",
-    "main.26f50476.css.map": "/static/css/main.26f50476.css.map",
-    "main.e0414337.js.map": "/static/js/main.e0414337.js.map"
+    "main.dc18f3d2.css.map": "/static/css/main.dc18f3d2.css.map",
+    "main.c1f31235.js.map": "/static/js/main.c1f31235.js.map"
   },
   "entrypoints": [
-    "static/css/main.26f50476.css",
-    "static/js/main.e0414337.js"
+    "static/css/main.dc18f3d2.css",
+    "static/js/main.c1f31235.js"
   ]
 }
