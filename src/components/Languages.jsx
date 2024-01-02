@@ -38,7 +38,7 @@ const Languages = () => {
                 <li className='m-5 group'>
                     <img className='object-contain w-20 h-20 transition-all group-hover:scale-125' src={cSharpLogo} alt="C# Language Logo"></img>
                     <div className='transition-all transform opacity-0 translate-y-2 group-hover:opacity-100'>
-                        <p>C</p>
+                        <p>C#</p>
                     </div>
                 </li>
 
