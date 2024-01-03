@@ -15,34 +15,34 @@ const Languages = () => {
   return (
     <div className='text-white py-48'>
         <div className='w-full text-center'>
-            <p className='pb-5 text-5xl font-bold'>Technologies</p>
+            <p className='pb-5 text-5xl font-bold text-blue-600'>Technologies</p>
             <p className='pb-10'>Various technologies/languages I've used extensively</p>
         </div>
         
-        <div className='md:mx-[80px] mx-[12px]'>
-            <ul className='flex flex-wrap font-bold text-center justify-center'>
-                <li className='m-5 group'>
+        <div className='md:mx-[80px] mx-[12px] items-center'>
+            <ul className='flex flex-wrap space-x-6 font-bold text-center justify-center'>
+                <li className='mt-5 group '>
                     <img className='object-contain w-20 h-20 transition-all group-hover:scale-125' src={javaLogo} alt="Java Language Logo"></img>
                     <div className='transition-all transform opacity-0 translate-y-2 group-hover:opacity-100'>
                         <p>Java</p>
                     </div>
                 </li>
 
-                <li className='m-5 group'>
+                <li className='mt-5 group'>
                     <img className='object-contain w-20 h-20 transition-all group-hover:scale-125' src={cLogo} alt="C Language Logo"></img>
                     <div className='transition-all transform opacity-0 translate-y-2 group-hover:opacity-100'>
                         <p>C</p>
                     </div>
                 </li>
 
-                <li className='m-5 group'>
+                <li className='mt-5 group'>
                     <img className='object-contain w-20 h-20 transition-all group-hover:scale-125' src={cSharpLogo} alt="C# Language Logo"></img>
                     <div className='transition-all transform opacity-0 translate-y-2 group-hover:opacity-100'>
                         <p>C#</p>
                     </div>
                 </li>
 
-                <li className='m-5 group'>
+                <li className='mt-5 group'>
                     <img className='object-contain w-20 h-20 transition-all group-hover:scale-125' src={jsLogo} alt="Javascript Language Logo"></img>
 
                     <div className='transition-all transform opacity-0 translate-y-2 group-hover:opacity-100'>
@@ -50,7 +50,7 @@ const Languages = () => {
                     </div>
                 </li>
 
-                <li className='m-5 group'>
+                <li className='mt-5 group'>
                     <img className='object-contain w-20 h-20 transition-all group-hover:scale-125' src={psLogo} alt="PowerShell Logo"></img>
 
                     <div className='transition-all transform opacity-0 translate-y-2 group-hover:opacity-100'>
@@ -58,7 +58,7 @@ const Languages = () => {
                     </div>
                 </li>
 
-                <li className='m-5 group'>
+                <li className='mt-5 group'>
                     <img className='object-contain w-20 h-20 transition-all group-hover:scale-125' src={pythonLogo} alt="Python Language Logo"></img>
 
                     <div className='transition-all transform opacity-0 translate-y-2 group-hover:opacity-100'>
@@ -66,7 +66,7 @@ const Languages = () => {
                     </div>
                 </li>
 
-                <li className='m-5 group'>
+                <li className='mt-5 group'>
                     <img className='object-contain w-20 h-20 transition-all group-hover:scale-125' src={reactLogo} alt="React Logo"></img>
 
                     <div className='transition-all transform opacity-0 translate-y-2 group-hover:opacity-100'>
@@ -74,7 +74,7 @@ const Languages = () => {
                     </div>
                 </li>
 
-                <li className='m-5 group'>
+                <li className='mt-5 group'>
                     <img className='object-contain w-20 h-20 transition-all group-hover:scale-125' src={gitLogo} alt="Git Logo"></img>
 
                     <div className='transition-all transform opacity-0 translate-y-2 group-hover:opacity-100'>
@@ -82,7 +82,7 @@ const Languages = () => {
                     </div>
                 </li>
 
-                <li className='m-5 group'>
+                <li className='mt-5 group'>
                     <img className='object-contain w-20 h-20 transition-all group-hover:scale-125' src={mongoLogo} alt="MongoDB Logo"></img>
 
                     <div className='transition-all transform opacity-0 translate-y-2 group-hover:opacity-100'>
@@ -90,7 +90,7 @@ const Languages = () => {
                     </div>
                 </li>
 
-                <li className='m-5 group'>
+                <li className='mt-5 group'>
                     <img className='object-contain w-20 h-20 transition-all group-hover:scale-125' src={nodeLogo} alt="NodeJS Logo"></img>
 
                     <div className='transition-all transform opacity-0 translate-y-2 group-hover:opacity-100'>
@@ -98,7 +98,7 @@ const Languages = () => {
                     </div>
                 </li>
 
-                <li className='m-5 group'>
+                <li className='mt-5 group'>
                     <img className='object-contain w-20 h-20 transition-all group-hover:scale-125' src={azureLogo} alt="Azure Devops Logo"></img>
 
                     <div className='transition-all transform opacity-0 translate-y-2 group-hover:opacity-100'>

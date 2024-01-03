@@ -7,13 +7,13 @@ import SSC from '../img/SSC-Logo.png'
 const Work = () => {
   return (
     <div className='text-white md:mx-[80px] mx-[12px] py-48'>
-        <p className='text-5xl font-bold text-center pb-5'>Previous Work Experience</p>
+        <p className='text-5xl font-bold text-center pb-5 text-blue-600 '>Previous Work Experience</p>
 
 
-        <div className='flex flex-wrap justify-center'>
+        <div className='flex flex-wrap justify-center '>
 
-        <div className="flex flex-col m-6 w-full sm:w-96 rounded-xl overflow-hidden shadow-lg bg-neutral-800">
-            <img className="w-full object-contain" src={HOC} alt="Sunset in the mountains"></img>
+        <div className="flex flex-col m-6 w-full sm:w-96 rounded-xl overflow-hidden shadow-lg bg-neutral-800 border-2 border-solid border-blue-800">
+            <img className="w-full object-contain" src={HOC} alt="House of Commons Logo"></img>
             <div className="px-6 py-4 h-full">
               <div className="font-bold text-md mb-2">Corporate Systems - House of Commons</div>
               <p className='font-bold'>Co-op Student</p>
@@ -35,8 +35,8 @@ const Work = () => {
             </div>
           </div>
 
-        <div className="flex flex-col m-6 w-full sm:w-96 rounded-xl overflow-hidden shadow-lg bg-neutral-800">
-            <img className="w-full object-contain" src={HOC} alt="Sunset in the mountains"></img>
+        <div className="flex flex-col m-6 w-full sm:w-96 rounded-xl overflow-hidden shadow-lg bg-neutral-800 border-2 border-solid border-blue-800">
+            <img className="w-full object-contain" src={HOC} alt="House of Commons Logo"></img>
             <div className="px-6 py-4 h-full">
               <div className="font-bold text-md mb-2">Physical Security - House of Commons</div>
               <p className='font-bold'>Co-op Student</p>
@@ -61,8 +61,8 @@ const Work = () => {
 
           
 
-          <div className="flex flex-col m-6 w-full sm:w-96 rounded-xl overflow-hidden shadow-lg bg-neutral-800">
-            <img className="w-full object-contain" src={GAC} alt="Sunset in the mountains"></img>
+          <div className="flex flex-col m-6 w-full sm:w-96 rounded-xl overflow-hidden shadow-lg bg-neutral-800 border-2 border-solid border-blue-800">
+            <img className="w-full object-contain" src={GAC} alt="Global Affairs Canada Logo"></img>
             <div className="px-6 py-4 h-full">
               <div className="font-bold text-md mb-2">Global Affairs Canada</div>
               <p className='font-bold'>Programmer Analyst</p>
@@ -83,8 +83,8 @@ const Work = () => {
           </div>
 
 
-          <div className="flex flex-col m-6 w-full sm:w-96 rounded-xl overflow-hidden shadow-lg bg-neutral-800">
-            <img className="w-full object-contain" src={SSC} alt="Sunset in the mountains"></img>
+          <div className="flex flex-col m-6 w-full sm:w-96 rounded-xl overflow-hidden shadow-lg bg-neutral-800 border-2 border-solid border-blue-800">
+            <img className="w-full object-contain" src={SSC} alt="Shared Services Canada Logo"></img>
             <div className="px-6 py-4 h-full">
               <div className="font-bold text-md mb-2">Shared Services Canada</div>
               <p className='font-bold'>Support Analyst</p>

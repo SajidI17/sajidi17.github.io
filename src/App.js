@@ -16,7 +16,7 @@ function App() {
       <WebLinks/>
       <section id='home'></section>
       <Header/>
-      <div className='bg-gradient-to-r from-neutral-900 via-[#202639] to-neutral-900 rounded-3xl border-4 border-neutral-900 border-dashed'>
+      <div className='bg-gradient-to-r from-neutral-900 via-[#202639] to-neutral-900'>
         <section id='languages'></section>
         <Languages/>
         <section id='work'></section>
