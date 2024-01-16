@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.9ca163b5.css",
-    "main.js": "/static/js/main.5d372af7.js",
-    "static/media/Sajid_Islam_Resume.pdf": "/static/media/Sajid_Islam_Resume.2baccddc8395ff145875.pdf",
+    "main.js": "/static/js/main.958866dd.js",
+    "static/media/Sajid_Islam_Resume.pdf": "/static/media/Sajid_Islam_Resume.d0eb146be034bbb301a4.pdf",
     "static/media/Python.png": "/static/media/Python.82efb64f8698a267f8bf.png",
     "static/media/React.png": "/static/media/React.b76698cf6e821b8a8758.png",
     "static/media/HOC-Emblem.png": "/static/media/HOC-Emblem.5fb100191e4768c169bc.png",
@@ -16,10 +16,10 @@
     "static/media/Azure.png": "/static/media/Azure.1a3c33ddd5c2ba41d446.png",
     "index.html": "/index.html",
     "main.9ca163b5.css.map": "/static/css/main.9ca163b5.css.map",
-    "main.5d372af7.js.map": "/static/js/main.5d372af7.js.map"
+    "main.958866dd.js.map": "/static/js/main.958866dd.js.map"
   },
   "entrypoints": [
     "static/css/main.9ca163b5.css",
-    "static/js/main.5d372af7.js"
+    "static/js/main.958866dd.js"
   ]
 }
