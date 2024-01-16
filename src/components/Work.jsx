@@ -16,7 +16,7 @@ const Work = () => {
             <img className="w-full object-contain" src={HOC} alt="House of Commons Logo"></img>
             <div className="px-6 py-4 h-full">
               <div className="font-bold text-md mb-2">Corporate Systems - House of Commons</div>
-              <p className='font-bold'>Co-op Student</p>
+              <p className='font-bold'>Programmer / Internship</p>
               <p className="text-base">
               • Lead the team to develop custom automated build and deployment pipelines for over 30 products, significantly enhancing efficiency and consistency of deployments, while minimizing downtime 
               <br/><br/>•	Developed an automatic cloud-hosted service using C# for syncing critical security data between a database and an API, reducing manual labour and minimizing human errors 
@@ -42,7 +42,7 @@ const Work = () => {
               <p className='font-bold'>Co-op Student</p>
               <p className="text-base">
               • Developed and tested the automated deployment product using PowerShell for managing security software on target nodes, ensuring quick delivery of critical security infrastructure across Parliament
-              <br/><br/>• Delivered presentations at sprint demos to the department and utilized feedback for further development
+              <br/><br/>• Presented developed features at sprint demos, incorporating feedback for enhancements, and ensured clear understanding of the finalized features
               <br/><br/>• Developed and implemented new features and enhancements to the pipeline using Azure resulting in better automated testing, increased efficiency during build time and reduced processing times
               </p>
             </div>
