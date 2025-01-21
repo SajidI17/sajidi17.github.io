@@ -6,9 +6,11 @@ import SSC from '../img/SSC-Logo.png'
 
 const Work = () => {
   return (
-    <div className='text-white md:mx-[80px] mx-[12px] py-48'>
-        <p className='text-5xl font-bold text-center pb-5 text-blue-600 '>Previous Work Experience</p>
-
+    <div className='text-white md:mx-[80px] mx-[12px] pt-48'>
+        <div className='w-full text-center'>
+            <p className='pb-5 text-5xl font-bold text-blue-600'>Experience</p>
+            <p className='pb-10'>My previous work experience.</p>
+        </div>
 
         <div className='flex flex-wrap justify-center '>
 

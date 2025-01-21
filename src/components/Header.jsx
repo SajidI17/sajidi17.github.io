@@ -13,7 +13,7 @@ const Header = () => {
             <div className='text-4xl md:text-5xl font-bold'>
                 <p className=''>Hey, I'm</p>
                 <p className='text-5xl md:text-7xl text-blue-600'>Sajid Islam,</p>
-                <p className=''>Software Engineer / Progammer.</p>
+                <p className=''>Software Developer / Progammer.</p>
             </div>
             {/*<ul className='inline-flex items-center space-x-2.5 p-2.5 border-dashed border-2 border-blue-700'>
                 <a target='_blank' rel='noreferrer' href={ResumePDF}><button className='py-2.5 px-2 rounded-lg font-medium text-center bg-blue-700 transition-all hover:bg-blue-600 hover:scale-125'>Resume</button></a>

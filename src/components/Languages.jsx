@@ -6,21 +6,19 @@ import psLogo from '../img/PowerShell.png'
 import pythonLogo from '../img/Python.png'
 import reactLogo from '../img/React.png'
 import gitLogo from '../img/Git.png'
-import mongoLogo from '../img/Mongodb.png'
 import nodeLogo from '../img/Nodejs.png'
 import azureLogo from '../img/Azure.png'
 import cSharpLogo from '../img/CSharp.png'
+import postgresqlLogo from '../img/Postgresql.png'
 
 const Languages = () => {
   return (
-    <div className='text-white py-48'>
+    <div className='text-white pb-48 pt-10'>
+        <div className='flex flex-wrap justify-center items-center md:mx-[80px] mx-[12px]'>
         <div className='w-full text-center'>
-            <p className='pb-5 text-5xl font-bold text-blue-600'>Technologies</p>
-            <p className='pb-10'>Various technologies/languages I've used extensively</p>
+            <p className='pb-10'>Languages and technologies I've used.</p>
         </div>
-        
-        <div className='md:mx-[80px] mx-[12px] items-center'>
-            <ul className='flex flex-wrap space-x-6 font-bold text-center justify-center'>
+            <ul className='flex flex-wrap md:p-3 md:space-x-6 space-x-3 font-bold text-center justify-center rounded-xl border-2 border-solid border-blue-800 bg-neutral-800'>
                 <li className='mt-5 group '>
                     <img className='object-contain w-20 h-20 transition-all group-hover:scale-125' src={javaLogo} alt="Java Language Logo"></img>
                     <div className='transition-all transform opacity-0 translate-y-2 group-hover:opacity-100'>
@@ -83,10 +81,10 @@ const Languages = () => {
                 </li>
 
                 <li className='mt-5 group'>
-                    <img className='object-contain w-20 h-20 transition-all group-hover:scale-125' src={mongoLogo} alt="MongoDB Logo"></img>
+                    <img className='object-contain w-20 h-20 transition-all group-hover:scale-125' src={postgresqlLogo} alt="PostgreSQL Logo"></img>
 
                     <div className='transition-all transform opacity-0 translate-y-2 group-hover:opacity-100'>
-                        <p>MongoDB</p>
+                        <p>PostgreSQL</p>
                     </div>
                 </li>
 

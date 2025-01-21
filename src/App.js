@@ -6,6 +6,7 @@ import Work from "./components/Work";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import WebLinks from "./components/WebLinks";
+import Projects  from "./components/Projects";
 //<div className='bg-gradient-to-r from-neutral-900 via-[#202639] to-neutral-900 rounded-3xl'></div>
 //space-y-96
 
@@ -17,10 +18,12 @@ function App() {
       <section id='home'></section>
       <Header/>
       <div className='bg-gradient-to-r from-neutral-900 via-[#202639] to-neutral-900'>
-        <section id='languages'></section>
-        <Languages/>
         <section id='work'></section>
         <Work/>
+        <section id='languages'></section>
+        <Languages/>
+        <section id='projects'></section>
+        <Projects/>
         <section id='contact'></section>
         <Contact/>
       </div>
