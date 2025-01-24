@@ -18,7 +18,7 @@ const Languages = () => {
         <div className='w-full text-center'>
             <p className='pb-10'>Languages and technologies I've used.</p>
         </div>
-            <ul className='flex flex-wrap md:p-3 md:space-x-6 space-x-3 font-bold text-center justify-center rounded-xl border-2 border-solid border-blue-800 bg-neutral-800'>
+            <ul className='flex flex-wrap p-3 md:space-x-6 space-x-4 font-bold text-center justify-center rounded-xl border-2 border-solid border-blue-800 bg-neutral-800'>
                 <li className='mt-5 group '>
                     <img className='object-contain w-20 h-20 transition-all group-hover:scale-125' src={javaLogo} alt="Java Language Logo"></img>
                     <div className='transition-all transform opacity-0 translate-y-2 group-hover:opacity-100'>

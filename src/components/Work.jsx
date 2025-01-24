@@ -22,7 +22,7 @@ const Work = () => {
               <p className="text-base">
               • Lead the team to develop custom automated build and deployment pipelines for over 30 products, significantly enhancing efficiency and consistency of deployments, while minimizing downtime 
               <br/><br/>•	Developed an automatic cloud-hosted service using C# for syncing critical security data between a database and an API, reducing manual labour and minimizing human errors 
-              <br/><br/>•	Developed and maintained custom deployment scripts for website applications and databases, simplifying procedures and reducing the need for the deployment team to follow complex product-specific processes
+              <br/><br/>•	Developed and deployed a REST API endpoint service, enabling seamless integration and communicationbetween multiple software applications
               </p>
             </div>
 
