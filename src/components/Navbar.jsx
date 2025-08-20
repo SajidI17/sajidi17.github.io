@@ -22,7 +22,9 @@ const Navbar = () => {
             <li className='md:px-4 md:py-4 px-2 py-3 cursor-pointer transition-all hover:text-blue-600 hover:scale-110'>
               <Scroll.Link activeClass='active' smooth spy to='work'>Experience</Scroll.Link>
             </li>
-
+            <li className='md:px-4 md:py-4 px-2 py-3 cursor-pointer transition-all hover:text-blue-600 hover:scale-110'>
+              <Scroll.Link activeClass='active' smooth spy to='projects'>Projects</Scroll.Link>
+            </li>
             <li className='md:px-4 md:py-4 px-2 py-3 cursor-pointer transition-all hover:text-blue-600 hover:scale-110'>
               <Scroll.Link activeClass='active' smooth spy to='contact'>Contact</Scroll.Link>
             </li>
