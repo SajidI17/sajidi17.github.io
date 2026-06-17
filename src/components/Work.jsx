@@ -17,11 +17,32 @@ const Work = () => {
         <div className="flex flex-col m-6 w-full sm:w-96 rounded-xl overflow-hidden shadow-lg bg-neutral-800 border-2 border-solid border-blue-800">
             <img className="w-full object-contain" src={HOC} alt="House of Commons Logo"></img>
             <div className="px-6 py-4 h-full">
-              <div className="font-bold text-md mb-2">Corporate Systems - House of Commons</div>
-              <p className='font-bold'>Programmer / Internship</p>
+              <div className="font-bold text-md mb-2">House of Commons</div>
+              <p className='font-bold'>Digital Product Developer</p>
               <p className="text-base">
-              • Lead the team to develop custom automated build and deployment pipelines for over 30 products, significantly enhancing efficiency and consistency of deployments, while minimizing downtime 
-              <br/><br/>•	Developed an automatic cloud-hosted service using C# for syncing critical security data between a database and an API, reducing manual labour and minimizing human errors 
+              • Maintained and enhanced 4 different desktop and web-based applications built with .NET (C#), gaining deep familiarity with existing systems quickly to support system stability, troubleshooting, and feature updates
+              <br/><br/>•	Designed REST API integrations between ServiceNow, Azure Cloud, and custom in-house applications, enabling secure, automated data flow across enterprise systems and streamlining critical IT operations
+              <br/><br/>•	Developed and customized applications on the ServiceNow platform, implementing workflows, business rules, and integrations to streamline and improve operational efficiency
+              </p>
+            </div>
+
+            <div className="px-6 pt-4 pb-2">
+              <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">.NET</span>
+              <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">C#</span>
+              <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">ServiceNow</span>
+              <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">Azure</span>
+              <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">REST API</span>
+            </div>
+          </div>
+
+        <div className="flex flex-col m-6 w-full sm:w-96 rounded-xl overflow-hidden shadow-lg bg-neutral-800 border-2 border-solid border-blue-800">
+            <img className="w-full object-contain" src={HOC} alt="House of Commons Logo"></img>
+            <div className="px-6 py-4 h-full">
+              <div className="font-bold text-md mb-2">Corporate Systems - House of Commons</div>
+              <p className='font-bold'>Programmer / Student</p>
+              <p className="text-base">
+              • Led the team to develop custom automated build and deployment pipelines for over 30 products, significantly enhancing efficiency and consistency of deployments, cutting release times from hours to seconds
+              <br/><br/>•	Created an automated Azure cloud hosted service using C# for syncing critical security data, reducing manual labour and minimizing human errors 
               <br/><br/>•	Developed and deployed a REST API endpoint service, enabling seamless integration and communicationbetween multiple software applications
               </p>
             </div>
@@ -45,7 +66,7 @@ const Work = () => {
               <p className="text-base">
               • Developed and tested the automated deployment product using PowerShell for managing security software on target nodes, ensuring quick delivery of critical security infrastructure across Parliament
               <br/><br/>• Presented developed features at sprint demos, incorporating feedback for enhancements, and ensured clear understanding of the finalized features
-              <br/><br/>• Developed and implemented new features and enhancements to the pipeline using Azure resulting in better automated testing, increased efficiency during build time and reduced processing times
+              <br/><br/>• Streamlined and implemented new features and enhancements to the pipeline using Azure resulting in better automated testing, increased efficiency during build time and reduced processing times
               </p>
             </div>
 
