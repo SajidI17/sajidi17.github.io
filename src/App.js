@@ -13,6 +13,9 @@ import Projects  from "./components/Projects";
 //line 30
 //<section id='projects'></section>
 //<Projects/>
+//
+//<section id='contact'></section>
+//<Contact/>
 
 function App() {
   return (
@@ -28,8 +31,6 @@ function App() {
         <Languages/>
         <section id='projects'></section>
         <Projects/>
-        <section id='contact'></section>
-        <Contact/>
       </div>
       <Footer/>
     </div>

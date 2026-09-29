@@ -29,6 +29,7 @@ const Work = () => {
             <div className="px-6 pt-4 pb-2">
               <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">.NET</span>
               <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">C#</span>
+              <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">JavaScript</span>
               <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">ServiceNow</span>
               <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">Azure</span>
               <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">REST API</span>
@@ -104,28 +105,6 @@ const Work = () => {
               <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">Scrum</span>
             </div>
           </div>
-
-
-          <div className="flex flex-col m-6 w-full sm:w-96 rounded-xl overflow-hidden shadow-lg bg-neutral-800 border-2 border-solid border-blue-800">
-            <img className="w-full object-contain" src={SSC} alt="Shared Services Canada Logo"></img>
-            <div className="px-6 py-4 h-full">
-              <div className="font-bold text-md mb-2">Shared Services Canada</div>
-              <p className='font-bold'>Support Analyst</p>
-              <p className="text-base">
-              • Processed requests from government agencies to plan, design and operate data centre services preventing disruptions for government agencies/services. 
-              <br/><br/>• Collaborated with government agencies to address needs in the delivery of IT infrastructure to servers
-              <br/><br/>• Assigned requests to operations teams to ensure efficient progress of crucial IT services
-              </p>
-            </div>
-
-            <div className="px-6 pt-4 pb-2">
-              <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">Ticket Management</span>
-              <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">IT Infrastructure</span>
-              <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">Business Requests</span>
-              <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">Data Centre Services</span>
-            </div>
-          </div>
-
         </div>
     </div>
   )
