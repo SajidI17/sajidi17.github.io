@@ -1,110 +1,98 @@
 import React from 'react'
-import HOC from '../img/HOC-Emblem.png'
-import GAC from '../img/Global-Affairs-Canada.png'
-import SSC from '../img/SSC-Logo.png'
-//bg-gradient-to-r from-[#202639] to-[#3f4c77]
+
+const experience = [
+  {
+    role: 'Digital Product Developer',
+    company: 'House of Commons',
+    dates: 'Sept 2025 – Present',
+    location: 'Ottawa, ON',
+    points: [
+      <>Developed and maintained <b>JavaScript</b> based <b>ServiceNow</b> Business Rules, Flow Designer workflows, and Service Portal enhancements for parliamentary ITSM systems serving <b>2,500+ users</b></>,
+      <>Refactored legacy <b>C#/.NET</b> codebases and <b>CI/CD pipelines</b> from non-functional states by reconciling source code with production changes and modernizing old build and deployment scripts</>,
+      <>Automated record creation through a <b>REST API</b> integration between ServiceNow and an internal application, implementing certificate-based authentication, retry handling and monitoring</>,
+      <>Advised multiple teams on CI/CD architecture across <b>50+ Azure DevOps pipelines</b> defining reusable YAML templates/scripts, environment-specific configuration, and deployment protection standards</>,
+      <>Maintained and configured <b>48 Windows servers</b> across 4 environments, overseeing database migrations, DNS management, load-balancing, and IIS configuration</>,
+    ],
+    tags: ['ServiceNow', 'JavaScript', 'C#', '.NET', 'Azure DevOps', 'REST API', 'YAML', 'Windows Server', 'IIS'],
+  },
+  {
+    role: 'Developer / Student',
+    company: 'House of Commons — Corporate Systems',
+    dates: 'Sept 2023 – Dec 2024, May 2025 – Aug 2025',
+    location: 'Ottawa, ON',
+    points: [
+      <>Owned an <b>Azure</b>-hosted <b>C#</b> service to automate bidirectional change tracking, record mapping, and retry handling between <b>Microsoft SQL</b> and a cloud service while preventing duplicate records and synchronization loops</>,
+      <>Led the team to develop custom automated <b>build and deployment pipelines</b> with rollback support for over 30 C#/.NET products, significantly enhancing efficiency by <b>approximately 80%</b></>,
+    ],
+    tags: ['C#', '.NET', 'Azure', 'Microsoft SQL', 'CI/CD Pipelines', 'Azure DevOps'],
+  },
+  {
+    role: 'Developer / Co-op Student',
+    company: 'House of Commons — Physical Security',
+    dates: 'Sept 2022 – Dec 2022',
+    location: 'Ottawa, ON',
+    points: [
+      <>Developed an automated deployment system using <b>PowerShell</b> to manage security software on Parliament Hill</>,
+      <>Streamlined and implemented enhancements and improved automated testing to the <b>CI/CD pipeline</b> reducing processing times by <b>35%</b></>,
+    ],
+    tags: ['PowerShell', 'CI/CD Pipelines', 'Automation', 'Automated Testing'],
+  },
+  {
+    role: 'Programmer Analyst / Co-op Student',
+    company: 'Global Affairs Canada',
+    dates: 'May 2022 – Aug 2022',
+    location: 'Ottawa, ON',
+    points: [
+      <>Delivered <b>25+ WCAG</b> aligned government forms by migrating legacy forms to <b>Adobe Experience Manager</b> and implementing <b>JavaScript</b>-based conditional fields and validation</>,
+    ],
+    tags: ['JavaScript', 'Adobe Experience Manager', 'WCAG Accessibility'],
+  },
+]
 
 const Work = () => {
   return (
     <div className='text-white md:mx-[80px] mx-[12px] pt-48'>
         <div className='w-full text-center'>
             <p className='pb-5 text-5xl font-bold text-blue-600'>Experience</p>
-            <p className='pb-10'>My previous work experience.</p>
         </div>
 
-        <div className='flex flex-wrap justify-center '>
+        <div className='relative max-w-5xl mx-auto flex flex-col gap-6 md:gap-8 pl-7 sm:pl-10 md:pl-12 sm:right-5 md:right-6'>
+          {/*Timeline line*/}
+          <div className='absolute left-[7px] top-[34px] sm:top-12 md:top-14 bottom-0 w-0.5 rounded-full bg-gradient-to-b from-blue-600 via-blue-800 to-transparent' aria-hidden='true'></div>
 
-        <div className="flex flex-col m-6 w-full sm:w-96 rounded-xl overflow-hidden shadow-lg bg-neutral-800 border-2 border-solid border-blue-800">
-            <img className="w-full object-contain" src={HOC} alt="House of Commons Logo"></img>
-            <div className="px-6 py-4 h-full">
-              <div className="font-bold text-md mb-2">House of Commons</div>
-              <p className='font-bold'>Digital Product Developer</p>
-              <p className="text-base">
-              • Maintained and enhanced 4 different desktop and web-based applications built with .NET (C#), gaining deep familiarity with existing systems quickly to support system stability, troubleshooting, and feature updates
-              <br/><br/>•	Designed REST API integrations between ServiceNow, Azure Cloud, and custom in-house applications, enabling secure, automated data flow across enterprise systems and streamlining critical IT operations
-              <br/><br/>•	Developed and customized applications on the ServiceNow platform, implementing workflows, business rules, and integrations to streamline and improve operational efficiency
-              </p>
+          {experience.map((job) => (
+            <div key={job.role + job.company} className='group relative rounded-2xl border border-neutral-700/70 bg-neutral-800/60 shadow-lg p-5 sm:p-8 md:p-10 transition-colors hover:border-blue-800'>
+              {/*Timeline dot SVG */}
+              <svg className='absolute -left-7 sm:-left-10 md:-left-12 top-[26px] sm:top-10 md:top-12 h-4 w-4 transition-transform group-hover:scale-125' viewBox='0 0 16 16' aria-hidden='true'>
+                <circle cx='8' cy='8' r='7' strokeWidth='2' className='fill-neutral-900 stroke-blue-500' />
+                <circle cx='8' cy='8' r='3' className='fill-blue-500' />
+              </svg>
+
+              <p className='text-xl sm:text-2xl font-bold text-neutral-100'>{job.role}</p>
+              <p className='mt-2 text-base sm:text-lg font-semibold text-blue-500'>{job.company}</p>
+              {(job.dates || job.location) && (
+                <div className='mt-3 text-sm sm:text-base text-neutral-400 leading-relaxed'>
+                  {job.dates && <p>{job.dates}</p>}
+                  {job.location && <p>{job.location}</p>}
+                </div>
+              )}
+
+              <ul className='mt-6 space-y-4 text-sm sm:text-base text-neutral-400 leading-relaxed [&_b]:font-semibold [&_b]:text-neutral-200'>
+                {job.points.map((point, i) => (
+                  <li key={i} className='flex gap-3'>
+                    <span className='text-blue-500 shrink-0' aria-hidden='true'>→</span>
+                    <span>{point}</span>
+                  </li>
+                ))}
+              </ul>
+
+              <div className='mt-6 flex flex-wrap gap-2'>
+                {job.tags.map((tag) => (
+                  <span key={tag} className='rounded-full border border-blue-800/60 bg-blue-950/40 px-3 py-1 text-xs sm:text-sm text-blue-300'>{tag}</span>
+                ))}
+              </div>
             </div>
-
-            <div className="px-6 pt-4 pb-2">
-              <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">.NET</span>
-              <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">C#</span>
-              <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">JavaScript</span>
-              <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">ServiceNow</span>
-              <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">Azure</span>
-              <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">REST API</span>
-            </div>
-          </div>
-
-        <div className="flex flex-col m-6 w-full sm:w-96 rounded-xl overflow-hidden shadow-lg bg-neutral-800 border-2 border-solid border-blue-800">
-            <img className="w-full object-contain" src={HOC} alt="House of Commons Logo"></img>
-            <div className="px-6 py-4 h-full">
-              <div className="font-bold text-md mb-2">Corporate Systems - House of Commons</div>
-              <p className='font-bold'>Programmer / Student</p>
-              <p className="text-base">
-              • Led the team to develop custom automated build and deployment pipelines for over 30 products, significantly enhancing efficiency and consistency of deployments, cutting release times from hours to seconds
-              <br/><br/>•	Created an automated Azure cloud hosted service using C# for syncing critical security data, reducing manual labour and minimizing human errors 
-              <br/><br/>•	Developed and deployed a REST API endpoint service, enabling seamless integration and communicationbetween multiple software applications
-              </p>
-            </div>
-
-            <div className="px-6 pt-4 pb-2">
-              <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">Build/Release Pipelines</span>
-              <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">C# Custom Application</span>
-              <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">PowerShell Scripting</span>
-              <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">Automation</span>
-              <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">Visual Studio</span>
-              <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">DevOps</span>
-              <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">Git</span>
-            </div>
-          </div>
-
-        <div className="flex flex-col m-6 w-full sm:w-96 rounded-xl overflow-hidden shadow-lg bg-neutral-800 border-2 border-solid border-blue-800">
-            <img className="w-full object-contain" src={HOC} alt="House of Commons Logo"></img>
-            <div className="px-6 py-4 h-full">
-              <div className="font-bold text-md mb-2">Physical Security - House of Commons</div>
-              <p className='font-bold'>Co-op Student</p>
-              <p className="text-base">
-              • Developed and tested the automated deployment product using PowerShell for managing security software on target nodes, ensuring quick delivery of critical security infrastructure across Parliament
-              <br/><br/>• Presented developed features at sprint demos, incorporating feedback for enhancements, and ensured clear understanding of the finalized features
-              <br/><br/>• Streamlined and implemented new features and enhancements to the pipeline using Azure resulting in better automated testing, increased efficiency during build time and reduced processing times
-              </p>
-            </div>
-
-            <div className="px-6 pt-4 pb-2">
-              <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">PowerShell Scripting</span>
-              <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">CD/CI Pipeline Dev</span>
-              <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">DevOps</span>
-              <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">Automation</span>
-              <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">VS Code</span>
-              <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">Git</span>
-              <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">Windows Management</span>
-              <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">IaC</span>
-            </div>
-          </div>
-
-          
-
-          <div className="flex flex-col m-6 w-full sm:w-96 rounded-xl overflow-hidden shadow-lg bg-neutral-800 border-2 border-solid border-blue-800">
-            <img className="w-full object-contain" src={GAC} alt="Global Affairs Canada Logo"></img>
-            <div className="px-6 py-4 h-full">
-              <div className="font-bold text-md mb-2">Global Affairs Canada</div>
-              <p className='font-bold'>Programmer Analyst</p>
-              <p className="text-base">
-              • Designed well-functioning and accessible government visual forms for agencies using JavaScript and Adobe Experience Manager to deliver software depended on by thousands of people within the department
-              <br/><br/>• Identified and executed test scenarios, created test plans and identified solutions for software to ensure the delivery of stable platforms
-              <br/><br/>• Collaborated with developers and engineers, as well as working independently in a fast-paced development environment to finish tasks well before deadlines
-              </p>
-            </div>
-
-            <div className="px-6 pt-4 pb-2">
-              <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">JavaScript</span>
-              <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">Bug Testing</span>
-              <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">Adobe Experience Manager</span>
-              <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">Software Debugging</span>
-              <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">Scrum</span>
-            </div>
-          </div>
+          ))}
         </div>
     </div>
   )

@@ -1,5 +1,5 @@
 import React from 'react'
-import {AiFillGithub,AiFillLinkedin} from "react-icons/ai"
+import {AiFillGithub,AiFillLinkedin,AiFillMail} from "react-icons/ai"
 import ResumePDF from '../pdf/Sajid_Islam_Resume.pdf'
 
 const WebLinks = () => {
@@ -9,6 +9,7 @@ const WebLinks = () => {
             <a target='_blank' rel='noreferrer' href={ResumePDF}><button className='py-2.5 px-2 rounded-lg font-bold text-center bg-blue-700 transition-all hover:bg-blue-600 hover:scale-110'>Resume</button></a>
             <a target='_blank' rel='noreferrer' href='https://github.com/SajidI17'><li className=''><AiFillGithub className='fill-blue-700 transition-all hover:fill-blue-600 hover:scale-125 ' size={50}/></li></a>
             <a target='_blank' rel='noreferrer' href='https://www.linkedin.com/in/sajid-i-9132b71b7/'><li className=''><AiFillLinkedin className='fill-blue-700 transition-all hover:fill-blue-600 hover:scale-125' size={50}/></li></a>
+            <a href='mailto:contact@sajidislam.dev' aria-label='Email contact@sajidislam.dev' title='contact@sajidislam.dev'><li className=''><AiFillMail className='fill-blue-700 transition-all hover:fill-blue-600 hover:scale-125' size={50}/></li></a>
         </ul>
     </div>
 
