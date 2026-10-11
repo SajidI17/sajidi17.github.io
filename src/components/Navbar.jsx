@@ -19,17 +19,17 @@ const Navbar = () => {
 
         <ul className='flex font-bold border-2 border-solid rounded-lg bg-neutral-800 border-blue-700'>
             
-            <li className='md:px-4 md:py-4 px-2 py-3 cursor-pointer transition-all hover:text-blue-600 hover:scale-110'>
-              <Scroll.Link activeClass='active' smooth spy to='home'>Home</Scroll.Link>
+            <li className='transition-all hover:text-blue-600 hover:scale-110'>
+              <Scroll.Link className='block md:px-4 md:py-4 px-2 py-3 cursor-pointer' activeClass='active' smooth spy to='home'>Home</Scroll.Link>
             </li>
-            <li className='md:px-4 md:py-4 px-2 py-3 cursor-pointer transition-all hover:text-blue-600 hover:scale-110'>
-              <Scroll.Link activeClass='active' smooth spy to='work'>Experience</Scroll.Link>
+            <li className='transition-all hover:text-blue-600 hover:scale-110'>
+              <Scroll.Link className='block md:px-4 md:py-4 px-2 py-3 cursor-pointer' activeClass='active' smooth spy to='work'>Experience</Scroll.Link>
             </li>
-            <li className='md:px-4 md:py-4 px-2 py-3 cursor-pointer transition-all hover:text-blue-600 hover:scale-110'>
-              <Scroll.Link activeClass='active' smooth spy to='languages'>Skills</Scroll.Link>
+            <li className='transition-all hover:text-blue-600 hover:scale-110'>
+              <Scroll.Link className='block md:px-4 md:py-4 px-2 py-3 cursor-pointer' activeClass='active' smooth spy to='languages'>Skills</Scroll.Link>
             </li>
-            <li className='md:px-4 md:py-4 px-2 py-3 cursor-pointer transition-all hover:text-blue-600 hover:scale-110'>
-              <Scroll.Link activeClass='active' smooth spy to='projects'>Project</Scroll.Link>
+            <li className='transition-all hover:text-blue-600 hover:scale-110'>
+              <Scroll.Link className='block md:px-4 md:py-4 px-2 py-3 cursor-pointer' activeClass='active' smooth spy to='projects'>Project</Scroll.Link>
             </li>
         </ul>
 
